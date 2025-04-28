@@ -2,7 +2,10 @@
 remove_header_style.sh
 update_image_paths.sh
 remove_pingback.sh
+remove_unnecessary_resources.sh
 remove_api_links.sh
 remove_jquery_backstretch.sh
 cleanup_empty_styles.sh
-remove_html5shiv.sh 
+remove_html5shiv.sh
+fix_resource_paths.sh
+update_google_fonts.sh 
