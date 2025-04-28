@@ -8,4 +8,6 @@ remove_jquery_backstretch.sh
 cleanup_empty_styles.sh
 remove_html5shiv.sh
 fix_resource_paths.sh
-update_google_fonts.sh 
+update_google_fonts.sh
+remove_google_plus_menu.sh
+remove_goldenruleway_references.sh 
