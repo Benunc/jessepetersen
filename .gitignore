@@ -1,3 +1,4 @@
 # Temporary scripts
 remove_header_style.sh
-update_image_paths.sh 
+update_image_paths.sh
+remove_pingback.sh 
