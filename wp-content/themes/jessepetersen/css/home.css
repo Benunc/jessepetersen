@@ -1,0 +1,255 @@
+/*
+Homepage
+---------------------------------------------------------------------------- */
+#header {
+	display: none;
+}
+
+
+/*
+Welcome
+---------------------------------------------------------------------------- */
+
+#welcome {
+	clear: both;
+	line-height: 1.5;
+	overflow: hidden;
+	padding: 166px 0 160px;
+	padding: 12rem 0 10rem;
+}
+
+#welcome h2 {
+	font-size: 4em;
+	font-weight: normal;
+	color: #fff;
+	text-shadow: 0 0 0.06em rgba(20, 20, 20, 0.8);
+}
+
+#welcome p {
+	color: #fff;
+	font-size: 1.35em;
+}
+
+span.blue {
+	color: rgba(180, 180, 180, 1.0);
+}
+
+span.bold {
+	font-weight: bold;
+}
+
+span.right {
+	text-align: right;
+}
+
+span.highlight, span.highlight a {
+	background-color: #ffe00e;
+	color: rgba(21, 88, 105, 1.0);
+	padding: 2px 8px;
+	text-decoration: none;
+}
+
+.welcome-text {
+	width: 40%;
+	position: relative;
+	float: left;
+}
+
+/*
+Video
+---------------------------------------------------------------------------- */
+
+#video .wrap {
+	max-width: 720px;
+}
+
+/*
+Headers
+---------------------------------------------------------------------------- */
+
+#welcome,
+#blank-header,
+#blank-header {
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	line-height: 1.5;
+	padding: 260px 0 192px;
+	padding: 20rem 0 12rem;
+}
+
+#site-header p.quote,
+#blank-header p.quote,
+#blank-header p.quote {
+	margin-bottom: 48px;
+	margin-bottom: 3rem;
+}
+
+#welcome {
+	background: url(https://jessepetersen.com/wp-content/themes/jessepetersen/css/images/jesse-headshot-imac.jpg) no-repeat center center fixed; 
+}
+
+#blank-header {
+	background: url(https://jessepetersen.com/wp-content/themes/jessepetersen/css/images/jesse-headshot-imac.jpg) no-repeat center center fixed; 
+}
+
+#blank-header {
+	background: url(https://jessepetersen.com/wp-content/themes/jessepetersen/css/images/jesse-headshot-imac.jpg) no-repeat center center fixed; 
+}
+
+
+
+/*
+About
+-----------------------------------------------------------------------------*/
+
+#video,
+#blog,
+#code,
+#themes {
+	background-color: #fff;
+	line-height: 1.5;
+	padding: 48px 0 96px;
+	padding: 3rem 0 6rem;
+	text-align: center;
+}
+
+#video:after,
+#video:before,
+#blog:after,
+#blog:before,
+#code:after,
+#code:before,
+#themes:after,
+#themes:before {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+#video:after,
+#blog:after,
+#code:after,
+#themes:after {
+    clear: both;
+}
+
+#video p.intro,
+#themes p.intro {
+	margin-bottom: 40px;
+	margin-bottom: 2.5rem;
+}
+
+#video #video-content .alignleft p,
+#video #video-content .alignright p,
+#themes #themes-content .alignleft p,
+#themes #themes-content .alignright p {
+	margin-bottom: 24px;
+	margin-bottom: 1.5rem;
+}
+
+#video p.intro,
+#themes p.intro {
+	line-height: 1.3;
+}
+
+#video #video-content .alignleft,
+#video #video-content .alignright,
+#themes #themes-content .alignleft,
+#themes #themes-content .alignright {
+	width: 47%;
+}
+
+#video .right,
+#themes .right {
+	margin-top: 64px;
+	margin-top: 4rem;
+}
+
+a.button.about {
+	background-color: #77c4d5;
+	box-shadow: 0 4px 0 0 #66abbd;
+}
+
+a.button.about:hover {
+	background-color: #66abbd;
+	box-shadow: 0 4px 0 0 #5793a4;
+}
+
+
+/*
+Blog
+---------------------------------------------------------------------------- */
+
+#blog .featuredpost .post {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	padding: 24px;
+	padding: 1.5rem;
+	text-align: left;
+}
+
+#blog .featuredpost .post:hover {
+	border: 1px solid #b4c536;
+}
+
+a.button.blog {
+	background-color: #b4c536;
+	box-shadow: 0 4px 0 0 #9bac2e;
+}
+
+a.button.blog:hover {
+	background-color: #9bac2e;
+	box-shadow: 0 4px 0 0 #859427;
+}
+
+/*
+Media Queries
+---------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 720px) {
+
+#welcome {
+	padding: 66px 0 100px;
+	padding: 4.3rem 0 6rem;
+}
+
+#welcome h2 {
+	font-size: 2.8em;
+}
+
+#welcome p {
+	font-size: 1.125em;
+}
+
+.welcome-text {
+	width: 60%;
+	position: relative;
+	float: left;
+	margin-left: 20px;
+}
+
+}
+
+
+@media only screen and (max-width: 320px) {
+
+#welcome {
+	padding: 42px 0 100px 20px;
+	padding: 4rem 0 6rem 1.8rem;
+}
+
+#welcome h2 {
+	font-size: 1.8em;
+}
+
+#welcome p {
+	font-size: 1.125em;
+}
+
+.welcome-text {
+	width: 90%;
+	position: relative;
+	float: left;
+}
+
+}
