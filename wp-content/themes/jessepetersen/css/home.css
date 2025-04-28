@@ -86,15 +86,15 @@ Headers
 }
 
 #welcome {
-	background: url(../images/jesse-headshot-imac.jpg) no-repeat center center fixed; 
+	background: url(/wp-content/themes/jessepetersen/images/jesse-headshot-imac.jpg) no-repeat center center fixed; 
 }
 
 #blank-header {
-	background: url(../images/jesse-headshot-imac.jpg) no-repeat center center fixed; 
+	background: url(/wp-content/themes/jessepetersen/images/jesse-headshot-imac.jpg) no-repeat center center fixed; 
 }
 
 #blank-header {
-	background: url(../images/jesse-headshot-imac.jpg) no-repeat center center fixed; 
+	background: url(/wp-content/themes/jessepetersen/images/jesse-headshot-imac.jpg) no-repeat center center fixed; 
 }
 
 
